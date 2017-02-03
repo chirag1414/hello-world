@@ -1,0 +1,24 @@
+/*Area and cirumfrence of circle*/
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Circle
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int r;
+            double A;
+	    Float PI = 3.14f;
+            Console.WriteLine("Enter the radius:");
+            r = Convert.ToInt32(Console.ReadLine());
+            A = PI * r * r;
+            Console.WriteLine("The Area of circle of given radius is=" + A);
+	    float circumference = 2 * PI * radius;
+            Console.WriteLine("Circumference = {0:F2}", circumference);
+            Console.ReadLine();
+        }
+    }
+}
